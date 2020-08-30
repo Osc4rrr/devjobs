@@ -2,7 +2,6 @@ const passport = require('passport');
 const Vacantes = require('../models/Vacantes');
 const Usuarios = require('../models/Usuarios');
 const crypto = require('crypto'); 
-const { reset } = require('nodemon');
 
 const enviarEmail = require('../handlers/email');
 
