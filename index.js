@@ -82,4 +82,6 @@ app.use((error, req,res, next) => {
 }); 
 
 
-app.listen(process.env.PUERTO);
+app.listen(process.env.PUERTO, () => {
+    console.log('servidor corriendo'); 
+});
